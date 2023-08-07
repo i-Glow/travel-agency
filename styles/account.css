@@ -1,0 +1,164 @@
+main {
+  max-width: 1440px;
+  margin: 100px auto;
+  display: flex;
+  gap: 30px;
+}
+
+/* INFO */
+
+.contact {
+  width: 200px;
+  height: 200px;
+  border-radius: 32px;
+  color: white;
+  background-color: var(--black);
+  padding: 20px 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* CARDS */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.heading {
+  color: var(--blue);
+  margin: 10px 0;
+}
+
+.cancel-btn {
+  width: auto;
+  padding: 12px 21px;
+  background-color: white;
+  border-radius: 32px;
+  border: 1px solid #ddd;
+  outline: transparent;
+  color: var(--gray);
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+.cancel-btn:hover {
+  color: red;
+  border-color: red;
+}
+
+/* HOTELS */
+
+.card {
+  height: 550px;
+  width: 350px;
+  border-radius: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.card img {
+  width: 100%;
+  height: 75%;
+}
+
+.info {
+  height: 25%;
+  padding: 14px 10px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.loc-date {
+  display: flex;
+  gap: 30px;
+}
+
+.book-ctn {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-ctn > div {
+  display: flex;
+  align-items: flex-end;
+}
+
+.book-ctn p {
+  color: var(--gray);
+}
+
+/* TOURS */
+.card-tour {
+  height: 600px;
+  width: 350px;
+  border-radius: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+}
+
+.price-tour {
+  padding: 4px 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 42px;
+}
+
+.card-tour img {
+  width: 100%;
+  height: 65%;
+}
+
+.card-details-tour {
+  height: 35%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.duration-tour, .hotel-tour {
+  display: flex;
+  gap: 4px
+}
+
+.reserve-tour {
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: var(--blue);
+  border-radius: 36px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+/* FLIGHTS */
+
+.card-flight {
+  width: fit-content;
+  background-color: white;
+  border: 2px solid var(--blue);
+  border-radius: 25px;
+  padding: 15px 25px;
+}
+
+.card-flight button {
+  margin-top: 10px;
+}

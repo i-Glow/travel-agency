@@ -1,0 +1,30 @@
+:root {
+  --blue: #4263C9;
+  --black: #2D3945;
+  --gray: #6E7B8E;
+  --white: #F1F5F5;
+}
+
+* {
+  font-family: 'Outfit';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}

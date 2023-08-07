@@ -1,0 +1,69 @@
+main {
+  margin-top: 100px;
+  max-width: 1440px;
+  margin: 100px auto;
+}
+
+.page-heading {
+  margin-left: 64px;
+  margin-bottom: 32px;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  height: 600px;
+  width: 350px;
+  border-radius: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+}
+
+.price {
+  padding: 4px 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 42px;
+}
+
+.card img {
+  width: 100%;
+  height: 65%;
+}
+
+.card-details {
+  height: 35%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.duration, .hotel {
+  display: flex;
+  gap: 4px
+}
+
+.reserve {
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: var(--blue);
+  border-radius: 36px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: auto;
+}
